@@ -1,0 +1,191 @@
+[
+  {
+    "id": "entity-suspect-a",
+    "name": "Tariq Shaikh",
+    "aliases": ["Guddu Bandra", "Tariq Bhai", "T-9"],
+    "type": "person",
+    "role": "Robbery Syndicate Operator / Field Leader",
+    "threatLevel": "high",
+    "primaryPhone": "+91 98204 11029",
+    "associatedAccounts": ["HDFC-330194821"],
+    "associatedVehicles": ["MH-02-CB-8812"],
+    "associatedLocations": ["Bandra Hill Road", "Kurla West"],
+    "summary": "Primary perpetrator named in Bandra Jewellery Heist (FIR 412/2024). Specializes in high-value armed robberies and bullion loot. Previously served 3 years for armed holdup in Mahim.",
+    "ipcSections": ["IPC 395 (Dacoity)", "IPC 397 (Robbery with deadly weapon)", "Arms Act Sec 25"],
+    "status": "Absconding",
+    "metadata": {
+      "age": 34,
+      "nationality": "Indian",
+      "lastKnownLocation": "Kurla West, Mumbai",
+      "priorsCount": 4
+    }
+  },
+  {
+    "id": "entity-suspect-b",
+    "name": "Karan Dave",
+    "aliases": ["KD Bullion", "K. Dave", "Dave Bhai"],
+    "type": "person",
+    "role": "Hawala Layering & Bullion Fencer",
+    "threatLevel": "high",
+    "primaryPhone": "+91 98218 77201",
+    "associatedAccounts": ["ICICI-881029341", "HDFC-904128841"],
+    "associatedVehicles": ["MH-01-BK-3390"],
+    "associatedLocations": ["Zaveri Bazaar", "BKC Financial Center"],
+    "summary": "Proprietor of Dave Bullion & Jewellers, Zaveri Bazaar. Under EOW probe for laundering unaccounted bullion into shell invoices via Apex Marine Exports.",
+    "ipcSections": ["PMLA Sec 3 & 4 (Money Laundering)", "IPC 420 (Cheating)", "IPC 120B (Criminal Conspiracy)"],
+    "status": "Under Surveillance",
+    "metadata": {
+      "age": 42,
+      "nationality": "Indian",
+      "lastKnownLocation": "BKC, Mumbai",
+      "businessEntities": ["Dave Bullion Ltd", "Apex Marine Exports"]
+    }
+  },
+  {
+    "id": "entity-suspect-c",
+    "name": "Vikram Solanki",
+    "aliases": ["Vicky Bhiwandi", "V.K. Solanki", "Vicky Godown"],
+    "type": "person",
+    "role": "Contraband Logistics & Maritime Transit Facilitator",
+    "threatLevel": "high",
+    "primaryPhone": "+91 98690 33419",
+    "associatedAccounts": ["SBI-440192837"],
+    "associatedVehicles": ["MH-04-AX-5510"],
+    "associatedLocations": ["Bhiwandi Logistics Hub", "Nhava Sheva Port"],
+    "summary": "Leaseholder of Container Shed 4B, Bhiwandi. Under DRI surveillance for smuggling precious gemstones and high-duty electronics via export container tampering.",
+    "ipcSections": ["Customs Act Sec 135", "IPC 468 (Forgery for Cheating)", "IPC 120B"],
+    "status": "Under Surveillance",
+    "metadata": {
+      "age": 39,
+      "nationality": "Indian",
+      "lastKnownLocation": "Bhiwandi Container Depot, Thane",
+      "depotCapacityTEU": 45
+    }
+  },
+  {
+    "id": "entity-intermediary-linchpin",
+    "name": "Raza Khan",
+    "aliases": ["R. Khan", "RK", "Raja", "Raja Bhai", "Farhan Bhai"],
+    "type": "person",
+    "role": "Hidden Syndicate Coordinator & Shadow Financier",
+    "threatLevel": "critical",
+    "primaryPhone": "+91 98201 44892",
+    "associatedAccounts": ["HDFC-904128841", "AXIS-771920394"],
+    "associatedVehicles": ["MH-01-EA-4920"],
+    "associatedLocations": ["Bandra West", "BKC", "Bhiwandi Depot", "Colaba"],
+    "summary": "CRITICAL LINCHPIN. Orchestrated the Bandra jewellery heist as collateral input, brokered the laundering pipeline via Karan Dave's shell entities, and scheduled outbound contraband transit through Vikram Solanki's logistics yard.",
+    "ipcSections": ["IPC 120B (Criminal Conspiracy)", "IPC 395 r/w 109 (Abetment of Dacoity)", "PMLA Sec 3", "MCOCA Sec 3"],
+    "status": "Identified Intermediary",
+    "metadata": {
+      "age": 46,
+      "nationality": "Indian",
+      "entityResolutionConfidence": 0.964,
+      "bridgeCentralityScore": 0.94,
+      "connectedSubnetworks": ["Robbery Squad", "Hawala Channel", "Port Logistics"]
+    }
+  },
+  {
+    "id": "entity-imran-qureshi",
+    "name": "Imran Qureshi",
+    "aliases": ["Immu", "I. Qureshi"],
+    "type": "person",
+    "role": "Getaway Driver & Tactical Scout",
+    "threatLevel": "medium",
+    "primaryPhone": "+91 98209 66104",
+    "associatedVehicles": ["MH-02-CB-8812"],
+    "associatedLocations": ["Bandra Hill Road", "Kurla"],
+    "summary": "Associate of Tariq Shaikh. Drove the white getaway vehicle spotted on Bandra CCTV cameras immediately following the jewellery shop heist.",
+    "ipcSections": ["IPC 395", "IPC 201 (Causing disappearance of evidence)"],
+    "status": "Detained",
+    "metadata": {
+      "age": 28,
+      "nationality": "Indian"
+    }
+  },
+  {
+    "id": "entity-altaf-memon",
+    "name": "Altaf Memon",
+    "aliases": ["Chotu Hawala", "A. Memon"],
+    "type": "person",
+    "role": "Physical Cash & Bullion Courier",
+    "threatLevel": "medium",
+    "primaryPhone": "+91 98199 44021",
+    "associatedAccounts": ["KOTAK-110928374"],
+    "associatedLocations": ["Zaveri Bazaar", "Bandra Station"],
+    "summary": "Operates as a physical drop courier. Recovered encrypted token slips matching Hawala ledger codes recovered from Dave Bullion's back office.",
+    "ipcSections": ["FEMA Sec 13", "IPC 120B"],
+    "status": "Detained",
+    "metadata": {
+      "age": 31,
+      "nationality": "Indian"
+    }
+  },
+  {
+    "id": "entity-sunil-verma",
+    "name": "Sunil Verma",
+    "aliases": ["S. Verma"],
+    "type": "person",
+    "role": "Shell Entity Dummy Director (Apex Marine)",
+    "threatLevel": "low",
+    "primaryPhone": "+91 98331 90812",
+    "associatedAccounts": ["HDFC-904128841"],
+    "associatedLocations": ["BKC Financial Center", "Fort"],
+    "summary": "Front director of shell company Apex Marine Exports. Confessed to signing blank corporate resolutions under instructions from 'Raja Bhai'.",
+    "ipcSections": ["Companies Act Sec 447", "IPC 468"],
+    "status": "Under Surveillance",
+    "metadata": {
+      "age": 52,
+      "nationality": "Indian"
+    }
+  },
+  {
+    "id": "entity-pradeep-nair",
+    "name": "Pradeep Nair",
+    "aliases": ["P. Nair", "Nair Agent"],
+    "type": "person",
+    "role": "Customs Clearing Agent & Seal Tamperer",
+    "threatLevel": "medium",
+    "primaryPhone": "+91 98200 55182",
+    "associatedLocations": ["Nhava Sheva Port", "Belapur"],
+    "summary": "Customs clearance broker handling documentation for export shipping bills. Coordinated container allocation for Vikram Solanki's Bhiwandi yard.",
+    "ipcSections": ["Customs Act Sec 132 & 135"],
+    "status": "Under Surveillance",
+    "metadata": {
+      "age": 44,
+      "nationality": "Indian"
+    }
+  },
+  {
+    "id": "entity-sameer-merchant",
+    "name": "Sameer Merchant",
+    "aliases": ["Merchant Dubai", "S. Merchant"],
+    "type": "person",
+    "role": "Overseas Crypto OTC Broker",
+    "threatLevel": "high",
+    "primaryPhone": "+971 50 8829104",
+    "associatedAccounts": ["TRC20-USDT-9910"],
+    "associatedLocations": ["Dubai Creek", "Colaba"],
+    "summary": "Overseas cryptocurrency OTC liquidity provider linked to USDT transfers converting Hawala cash tokens into offshore offshore wallets.",
+    "ipcSections": ["PMLA Sec 3", "FEMA"],
+    "status": "Absconding",
+    "metadata": {
+      "age": 38,
+      "nationality": "NRI / UAE Resident"
+    }
+  },
+  {
+    "id": "entity-unknown-contact",
+    "name": "Unidentified Caller (Burner 8892)",
+    "aliases": ["Shadow Node-7"],
+    "type": "phone",
+    "role": "Burner Relay SIM",
+    "threatLevel": "critical",
+    "primaryPhone": "+91 98201 44892",
+    "summary": "Disposable SIM card active for 14 days. Connected to Tariq Shaikh, Karan Dave, and Vikram Solanki during critical pre-heist and post-heist time windows.",
+    "status": "Identified Intermediary",
+    "metadata": {
+      "towerTriangulations": 18,
+      "imei": "864912048892104"
+    }
+  }
+]

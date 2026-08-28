@@ -1,0 +1,122 @@
+[
+  {
+    "eventId": "LOC-201",
+    "entityId": "entity-suspect-a",
+    "entityName": "Tariq Shaikh",
+    "locationName": "Hill Road, Bandra West",
+    "coordinates": [19.0544, 72.8295],
+    "timestamp": "2024-10-12T19:40:00Z",
+    "source": "Cell Tower Triangulation",
+    "confidence": 0.98
+  },
+  {
+    "eventId": "LOC-202",
+    "entityId": "entity-imran-qureshi",
+    "entityName": "Imran Qureshi (Swift MH-02-CB-8812)",
+    "locationName": "Mehboob Studio Junction, Bandra",
+    "coordinates": [19.0512, 72.8274],
+    "timestamp": "2024-10-12T20:05:00Z",
+    "source": "ANPR Camera",
+    "confidence": 0.95
+  },
+  {
+    "eventId": "LOC-203",
+    "entityId": "entity-intermediary-linchpin",
+    "entityName": "Raza Khan (Scorpio MH-01-EA-4920)",
+    "locationName": "Bandra-Worli Sea Link Toll",
+    "coordinates": [19.0345, 72.8184],
+    "timestamp": "2024-10-12T20:45:00Z",
+    "source": "ANPR Camera",
+    "confidence": 0.99
+  },
+  {
+    "eventId": "LOC-204",
+    "entityId": "entity-suspect-b",
+    "entityName": "Karan Dave (Dave Bullion)",
+    "locationName": "Zaveri Bazaar, Kalbadevi",
+    "coordinates": [18.9515, 72.8312],
+    "timestamp": "2024-10-13T09:00:00Z",
+    "source": "Cell Tower Triangulation",
+    "confidence": 0.96
+  },
+  {
+    "eventId": "LOC-205",
+    "entityId": "entity-altaf-memon",
+    "entityName": "Altaf Memon (Courier)",
+    "locationName": "Kurla Railway Station East",
+    "coordinates": [19.0657, 72.8794],
+    "timestamp": "2024-10-13T11:00:00Z",
+    "source": "CCTV Facial Match",
+    "confidence": 0.91
+  },
+  {
+    "eventId": "LOC-206",
+    "entityId": "entity-suspect-a",
+    "entityName": "Tariq Shaikh",
+    "locationName": "Kurla Railway Station East",
+    "coordinates": [19.0659, 72.8792],
+    "timestamp": "2024-10-13T11:05:00Z",
+    "source": "Cell Tower Triangulation",
+    "confidence": 0.94
+  },
+  {
+    "eventId": "LOC-207",
+    "entityId": "entity-suspect-b",
+    "entityName": "Karan Dave",
+    "locationName": "BKC G-Block Financial Center",
+    "coordinates": [19.0674, 72.8681],
+    "timestamp": "2024-10-13T14:15:00Z",
+    "source": "Cell Tower Triangulation",
+    "confidence": 0.97
+  },
+  {
+    "eventId": "LOC-208",
+    "entityId": "entity-intermediary-linchpin",
+    "entityName": "Raza Khan (Scorpio MH-01-EA-4920)",
+    "locationName": "BKC G-Block Financial Center",
+    "coordinates": [19.0671, 72.8685],
+    "timestamp": "2024-10-13T14:25:00Z",
+    "source": "ANPR Camera",
+    "confidence": 0.99
+  },
+  {
+    "eventId": "LOC-209",
+    "entityId": "entity-intermediary-linchpin",
+    "entityName": "Raza Khan (Scorpio MH-01-EA-4920)",
+    "locationName": "Thane-Mulund Toll Plaza",
+    "coordinates": [19.1843, 72.9567],
+    "timestamp": "2024-10-14T15:10:00Z",
+    "source": "ANPR Camera",
+    "confidence": 0.99
+  },
+  {
+    "eventId": "LOC-210",
+    "entityId": "entity-suspect-c",
+    "entityName": "Vikram Solanki",
+    "locationName": "Bhiwandi Logistics Hub, Shed 4B",
+    "coordinates": [19.2968, 73.0631],
+    "timestamp": "2024-10-14T16:00:00Z",
+    "source": "Cell Tower Triangulation",
+    "confidence": 0.98
+  },
+  {
+    "eventId": "LOC-211",
+    "entityId": "entity-intermediary-linchpin",
+    "entityName": "Raza Khan (Scorpio MH-01-EA-4920)",
+    "locationName": "Bhiwandi Logistics Hub, Shed 4B",
+    "coordinates": [19.2965, 73.0633],
+    "timestamp": "2024-10-14T16:25:00Z",
+    "source": "Informer Sighting",
+    "confidence": 0.94
+  },
+  {
+    "eventId": "LOC-212",
+    "entityId": "entity-pradeep-nair",
+    "entityName": "Pradeep Nair (CHA Agent)",
+    "locationName": "Nhava Sheva Port Terminal 2",
+    "coordinates": [18.9496, 72.9511],
+    "timestamp": "2024-10-14T19:00:00Z",
+    "source": "CCTV Facial Match",
+    "confidence": 0.89
+  }
+]

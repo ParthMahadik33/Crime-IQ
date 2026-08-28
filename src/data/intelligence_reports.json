@@ -1,0 +1,62 @@
+[
+  {
+    "reportId": "INTEL-MUM-2024-881",
+    "agency": "Anti-Extortion & Special Intelligence Cell, Crime Branch Mumbai",
+    "classification": "TOP SECRET // CRIME BRANCH",
+    "sourceType": "HUMINT",
+    "date": "2024-10-08T17:00:00Z",
+    "title": "Intelligence Dossier: Emerging Intermediary 'Raja' / 'RK' Coordinating Tri-Partite Syndicate",
+    "text": "Reliable grade-A HUMINT informer indicates a shadowy facilitator operating under pseudonyms 'Raja', 'R. Khan', and 'Farhan Bhai' has entered Mumbai bullion market. Source reports Raja does not execute robberies or physical transit himself; instead, he orchestrates end-to-end supply chains: commissioning specialized street crews (Tariq Shaikh's group in Bandra) for acquisition, utilizing established bullion merchants in Zaveri Bazaar for hawala liquidation, and booking inland container depots in Bhiwandi to export high-value contraband. Target uses burner relay SIMs with last 4 digits '4892' and travels in a black SUV MH-01-EA-4920 registered as R. Khan.",
+    "keyInsights": [
+      "Subject 'Raja' acts as coordinator bridging street armed crews and white-collar hawala merchants",
+      "Known vehicle: Black Scorpio MH-01-EA-4920 registered to R. Khan",
+      "Associated phone pattern: +91 98201 44892",
+      "Target links Bandra holdup networks with Bhiwandi export warehouses"
+    ],
+    "extractedTriples": [
+      { "subject": "Raza Khan (Raja)", "predicate": "coordinates", "object": "Tariq Shaikh", "confidence": 0.94 },
+      { "subject": "Raza Khan (R. Khan)", "predicate": "owns_vehicle", "object": "MH-01-EA-4920", "confidence": 0.98 },
+      { "subject": "Raza Khan (RK)", "predicate": "operates_burner", "object": "+91 98201 44892", "confidence": 0.96 },
+      { "subject": "Raza Khan", "predicate": "contracts_fencer", "object": "Karan Dave", "confidence": 0.91 }
+    ]
+  },
+  {
+    "reportId": "INTEL-DRI-2024-409",
+    "agency": "Directorate of Revenue Intelligence (DRI), Nhava Sheva Special Cell",
+    "classification": "CONFIDENTIAL // DRI",
+    "sourceType": "SIGINT",
+    "date": "2024-10-14T08:30:00Z",
+    "title": "SIGINT Intercept: Export Consignment 'EXP-992' & Container Tampering at Shed 4B",
+    "text": "SIGINT monitoring flagged electronic shipping bill filed by shell company 'Apex Marine Exports' (Director: Sunil Verma). Goods declared as 'Deep Sea Dredging Spares & Impellers' for export to UAE. Container TGHU-940128-4 routed via Bhiwandi Shed 4B operated by Vikram Solanki. Financial audit shows Apex Marine received ₹1.2 Cr transfer from Dave Bullion & Jewellers immediately preceding customs filing. High-probability alert for illicit precious stones / gold bullion concealed within heavy steel pump housings.",
+    "keyInsights": [
+      "Shell firm Apex Marine Exports linked financially to Dave Bullion (Karan Dave)",
+      "Transit node identified as Shed 4B Bhiwandi (Vikram Solanki)",
+      "Suspected cargo: Looted diamonds from Bandra Heist being exported under forged bill of lading",
+      "Customs House Agent Pradeep Nair facilitating gate clearance without physical container scan"
+    ],
+    "extractedTriples": [
+      { "subject": "Apex Marine Exports", "predicate": "funded_by", "object": "Dave Bullion (Karan Dave)", "confidence": 0.99 },
+      { "subject": "Apex Marine Exports", "predicate": "leases_depot", "object": "Vikram Solanki (Shed 4B)", "confidence": 0.97 },
+      { "subject": "Vikram Solanki", "predicate": "coordinates_agent", "object": "Pradeep Nair", "confidence": 0.95 }
+    ]
+  },
+  {
+    "reportId": "INTEL-EOW-2024-112",
+    "agency": "Economic Offences Wing (EOW), Multi-Agency Hawala Tracking Unit",
+    "classification": "SECRET // SPECIAL CELL",
+    "sourceType": "FININT",
+    "date": "2024-10-14T18:00:00Z",
+    "title": "Financial Intelligence: Crypto OTC Layering via TRC20 Token Wash",
+    "text": "Analysis of seized mobile device from courier Altaf Memon revealed Telegram channel 'Nexus Liquidity' used for instant Hawala settlements. Account AXIS-771920394 operated under alias 'Raza Khan' wired ₹35 Lakhs received from Apex Marine, converted within 45 minutes into 33,500 USDT via P2P OTC trader Sameer Merchant in Dubai. This completes a 4-tier laundering cycle: Physical Heist -> Zaveri Bullion Hawala Ledger -> Shell Entity Bank Layer -> Offshore Crypto Wallet.",
+    "keyInsights": [
+      "Full financial laundering circuit mapped from cash token to Dubai crypto wallet",
+      "Apex Marine bank account serves as transit bridge between Karan Dave and Raza Khan",
+      "Courier Altaf Memon acts as physical handover link for token slips"
+    ],
+    "extractedTriples": [
+      { "subject": "Apex Marine Exports", "predicate": "transfers_to", "object": "Raza Khan (AXIS-771920394)", "confidence": 0.98 },
+      { "subject": "Raza Khan", "predicate": "converts_crypto", "object": "Sameer Merchant", "confidence": 0.93 },
+      { "subject": "Karan Dave", "predicate": "dispatches_courier", "object": "Altaf Memon", "confidence": 0.96 }
+    ]
+  }
+]

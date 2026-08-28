@@ -1,0 +1,9 @@
+txId,fromAccount,fromEntity,toAccount,toEntity,amountINR,timestamp,mode,referenceNote,flaggedSuspicious
+TX-401,ICICI-881029341,Dave Bullion & Jewellers,HDFC-904128841,Apex Marine Exports,12000000,2024-10-13T14:30:00Z,RTGS,Advance for Marine Equipment #EXP-992,true
+TX-402,HDFC-904128841,Apex Marine Exports,SBI-440192837,Solanki Freight Logistics,1850000,2024-10-14T10:15:00Z,RTGS,Shed 4B Container Handling Charges,true
+TX-403,HAWALA-TOKEN-LEDGER,Karan Dave,CASH-DROP-KURLA,Tariq Shaikh,4500000,2024-10-13T11:10:00Z,Hawala Token,Token Ref: RK-BHI-402 / Heist Advance,true
+TX-404,HDFC-904128841,Apex Marine Exports,AXIS-771920394,Raza Khan,3500000,2024-10-14T12:00:00Z,IMPS,Consulting Fee / Project Management,true
+TX-405,AXIS-771920394,Raza Khan,TRC20-USDT-9910,Sameer Merchant,2800000,2024-10-14T21:45:00Z,Crypto P2P,P2P Liquidity Token Wash (33500 USDT),true
+TX-406,KOTAK-110928374,Altaf Memon,HDFC-330194821,Tariq Shaikh Associate,250000,2024-10-13T16:20:00Z,IMPS,Emergency Family Upkeep,false
+TX-407,SBI-440192837,Vikram Solanki,BARB-220194812,Pradeep Nair,320000,2024-10-14T19:10:00Z,IMPS,Express Port Fast-Track Clearance,true
+TX-408,ICICI-881029341,Dave Bullion,KOTAK-110928374,Altaf Memon,75000,2024-10-13T09:40:00Z,IMPS,Courier Commission & Travel Expenses,false

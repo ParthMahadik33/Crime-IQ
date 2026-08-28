@@ -1,0 +1,69 @@
+[
+  {
+    "plateNumber": "MH-01-EA-4920",
+    "makeModel": "Mahindra Scorpio N (Black)",
+    "color": "Midnight Black",
+    "registeredOwner": "R. Khan (Reg Address: Hill Road, Bandra West)",
+    "knownUsers": ["Raza Khan", "Raja Bhai"],
+    "anprSightings": [
+      {
+        "tollPlaza": "Bandra-Worli Sea Link Northbound",
+        "timestamp": "2024-10-12T20:45:00Z",
+        "direction": "North to South"
+      },
+      {
+        "tollPlaza": "BKC Connector Toll",
+        "timestamp": "2024-10-13T14:25:00Z",
+        "direction": "Eastbound"
+      },
+      {
+        "tollPlaza": "Thane-Mulund Checkpost",
+        "timestamp": "2024-10-14T15:10:00Z",
+        "direction": "Outbound to Bhiwandi"
+      },
+      {
+        "tollPlaza": "Bhiwandi Bypass Toll",
+        "timestamp": "2024-10-14T16:15:00Z",
+        "direction": "Inbound to Logistics Park"
+      }
+    ]
+  },
+  {
+    "plateNumber": "MH-02-CB-8812",
+    "makeModel": "Maruti Suzuki Swift (White)",
+    "color": "Arctic White",
+    "registeredOwner": "Imran Qureshi (Kurla West)",
+    "knownUsers": ["Imran Qureshi", "Tariq Shaikh"],
+    "anprSightings": [
+      {
+        "tollPlaza": "Mehboob Studio CCTV ANPR",
+        "timestamp": "2024-10-12T20:05:00Z",
+        "direction": "Bandra to Mahim Causeway"
+      },
+      {
+        "tollPlaza": "Sion-Bandra Link Road",
+        "timestamp": "2024-10-12T20:25:00Z",
+        "direction": "Eastbound towards Kurla"
+      }
+    ]
+  },
+  {
+    "plateNumber": "MH-01-BK-3390",
+    "makeModel": "Toyota Innova Crysta (Silver)",
+    "color": "Silver Metallic",
+    "registeredOwner": "Dave Bullion & Jewellers Pvt Ltd",
+    "knownUsers": ["Karan Dave", "Altaf Memon"],
+    "anprSightings": [
+      {
+        "tollPlaza": "JJ Flyover Southbound",
+        "timestamp": "2024-10-13T08:45:00Z",
+        "direction": "To Zaveri Bazaar"
+      },
+      {
+        "tollPlaza": "BKC Connector",
+        "timestamp": "2024-10-13T14:10:00Z",
+        "direction": "To BKC G-Block"
+      }
+    ]
+  }
+]

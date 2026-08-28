@@ -1,0 +1,77 @@
+[
+  {
+    "firNumber": "FIR No. 412/2024",
+    "policeStation": "Bandra Police Station, Mumbai",
+    "dateFiled": "2024-10-12T22:30:00Z",
+    "incidentDate": "2024-10-12T19:45:00Z",
+    "sections": ["IPC 395 (Dacoity)", "IPC 397 (Robbery with Attempt to Cause Death)", "Arms Act Sec 3/25"],
+    "complainant": "Rajesh Mehta (Owner, Mehta Diamond & Jewellery Vault)",
+    "primaryAccused": ["Tariq Shaikh (alias Guddu Bandra)", "Imran Qureshi", "2 Unidentified Assailants"],
+    "incidentLocation": "Mehta Diamond Vault, Hill Road, Bandra West, Mumbai",
+    "seizedItems": [
+      "2.4 kg Unhallmarked 24K Gold Bars",
+      "75.8 Carats Certified Diamonds (Valued at ₹4.2 Crore)",
+      "1 Countrymade 7.65mm Pistol with 3 live rounds",
+      "Discarded SIM card wrapper (+91 98204 11029)"
+    ],
+    "briefFacts": "On 12-Oct-2024 at 19:45 hrs, four armed individuals entered Mehta Diamond Vault. The perpetrators threatened staff at gunpoint, disabled CCTV DVR unit, and decamped with high-grade diamond packets and raw bullion. Informers and CCTV camera near Mehboob Studio identified getaway car white Swift (MH-02-CB-8812) driven by Imran Qureshi with Tariq Shaikh. Wiretaps indicate Tariq called a contact saved as 'Raja Bhai' (+91 98201 44892) 18 minutes prior to the assault.",
+    "extractedEntities": {
+      "persons": ["Tariq Shaikh", "Guddu Bandra", "Imran Qureshi", "Rajesh Mehta", "Raja Bhai"],
+      "phones": ["+91 98204 11029", "+91 98201 44892", "+91 98209 66104"],
+      "locations": ["Hill Road Bandra", "Mehboob Studio", "Kurla West"],
+      "vehicles": ["MH-02-CB-8812"],
+      "accounts": ["HDFC-330194821"],
+      "financialTokens": ["₹4.2 Crore Loot", "Token-HEIST-GOLD"]
+    }
+  },
+  {
+    "firNumber": "ECIR/MBZO-I/89/2024",
+    "policeStation": "Enforcement Directorate / EOW Cyber & Bullion Cell, BKC",
+    "dateFiled": "2024-10-14T11:15:00Z",
+    "incidentDate": "2024-10-13T14:20:00Z",
+    "sections": ["PMLA Sec 3 & 4", "IPC 420", "IPC 467/468 (Forgery)", "IPC 120B"],
+    "complainant": "Special Intelligence Unit, Enforcement Directorate",
+    "primaryAccused": ["Karan Dave (Dave Bullion)", "Sunil Verma (Director, Apex Marine Exports)", "Altaf Memon"],
+    "incidentLocation": "Dave Bullion Office, Zaveri Bazaar & BKC Financial Center, Mumbai",
+    "seizedItems": [
+      "₹1.85 Crore Hawala Cash in ₹500 denominations",
+      "Hawala Ledger Notebook containing secret codes: 'RK-BHI-402'",
+      "Fake Export Shipping Invoices under Apex Marine Exports",
+      "Encrypted hardware wallet backup seed phrase"
+    ],
+    "briefFacts": "EOW raid on Dave Bullion premises following suspicious RTGS spikes. Karan Dave received massive unbilled bullion deposits on 13-Oct-2024, immediately layered into bank account of dummy entity 'Apex Marine Exports' (HDFC-904128841). Recovered physical ledger shows incoming batch referenced as 'Loot 75ct - Token RK-402' with cash disbursement instructions to courier Altaf Memon. Intercepts show Karan Dave in frequent touch with burner SIM +91 98201 44892.",
+    "extractedEntities": {
+      "persons": ["Karan Dave", "KD Bullion", "Sunil Verma", "Altaf Memon", "RK", "Raza Khan"],
+      "phones": ["+91 98218 77201", "+91 98199 44021", "+91 98201 44892"],
+      "locations": ["Zaveri Bazaar", "BKC Financial Center", "Fort"],
+      "vehicles": ["MH-01-BK-3390"],
+      "accounts": ["ICICI-881029341", "HDFC-904128841", "KOTAK-110928374"],
+      "financialTokens": ["Token RK-BHI-402", "₹1.85 Cr Hawala Cash"]
+    }
+  },
+  {
+    "firNumber": "DRI/MZU/INT-772/2024",
+    "policeStation": "Directorate of Revenue Intelligence, Mumbai Zonal Unit",
+    "dateFiled": "2024-10-15T09:00:00Z",
+    "incidentDate": "2024-10-14T23:50:00Z",
+    "sections": ["Customs Act 1962 Sec 108 & 135", "COFEPOSA Sec 3", "IPC 120B"],
+    "complainant": "Senior Intelligence Officer, DRI MZU",
+    "primaryAccused": ["Vikram Solanki (Vicky Bhiwandi)", "Pradeep Nair (CHA Agent)", "R. Khan (Lease Sponsor)"],
+    "incidentLocation": "Shed 4B, Bhiwandi Multi-Logistics Container Park, Thane",
+    "seizedItems": [
+      "40-foot Sea Container (TGHU-940128-4) disguised as Marine Machinery Parts",
+      "Tampered ISO Customs High-Security Bottle Seals",
+      "Forged Marine Bill of Lading BL-NSICT-8819",
+      "ANPR toll log showing Black Scorpio MH-01-EA-4920 entering compound"
+    ],
+    "briefFacts": "DRI team intercepted an illicit container tampering operation in progress at Bhiwandi Logistics Yard operated by Vikram Solanki. Contraband disguised inside export cargo destined for Jebel Ali / Dubai under bill of lading linked to Apex Marine Exports. Security guards confirmed a black SUV (MH-01-EA-4920) registered to an 'R. Khan' visited the depot 2 hours prior to load consolidation. Vikram Solanki received advance coordination calls from +91 98201 44892.",
+    "extractedEntities": {
+      "persons": ["Vikram Solanki", "Vicky Bhiwandi", "Pradeep Nair", "R. Khan", "Raza Khan"],
+      "phones": ["+91 98690 33419", "+91 98200 55182", "+91 98201 44892"],
+      "locations": ["Bhiwandi Logistics Hub", "Nhava Sheva Port", "Thane Toll Plaza"],
+      "vehicles": ["MH-04-AX-5510", "MH-01-EA-4920"],
+      "accounts": ["SBI-440192837", "HDFC-904128841"],
+      "financialTokens": ["BL-NSICT-8819", "Export Consignment #EXP-992"]
+    }
+  }
+]

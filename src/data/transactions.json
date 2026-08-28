@@ -1,0 +1,98 @@
+[
+  {
+    "txId": "TX-401",
+    "fromAccount": "ICICI-881029341",
+    "fromEntity": "Dave Bullion & Jewellers (Karan Dave)",
+    "toAccount": "HDFC-904128841",
+    "toEntity": "Apex Marine Exports (Dummy Entity / Raza Khan)",
+    "amountINR": 12000000,
+    "timestamp": "2024-10-13T14:30:00Z",
+    "mode": "RTGS",
+    "referenceNote": "Advance for Marine Equipment Consignment #EXP-992",
+    "flaggedSuspicious": true
+  },
+  {
+    "txId": "TX-402",
+    "fromAccount": "HDFC-904128841",
+    "fromEntity": "Apex Marine Exports (Raza Khan / Sunil Verma)",
+    "toAccount": "SBI-440192837",
+    "toEntity": "Solanki Freight Logistics (Vikram Solanki)",
+    "amountINR": 1850000,
+    "timestamp": "2024-10-14T10:15:00Z",
+    "mode": "RTGS",
+    "referenceNote": "Shed 4B Container Consolidation & Handling Charges",
+    "flaggedSuspicious": true
+  },
+  {
+    "txId": "TX-403",
+    "fromAccount": "HAWALA-TOKEN-LEDGER",
+    "fromEntity": "Karan Dave (Dave Bullion)",
+    "toAccount": "CASH-DROP-KURLA",
+    "toEntity": "Tariq Shaikh (via Courier Altaf Memon)",
+    "amountINR": 4500000,
+    "timestamp": "2024-10-13T11:10:00Z",
+    "mode": "Hawala Token",
+    "referenceNote": "Token Ref: RK-BHI-402 / Heist Split Advance",
+    "flaggedSuspicious": true
+  },
+  {
+    "txId": "TX-404",
+    "fromAccount": "HDFC-904128841",
+    "fromEntity": "Apex Marine Exports",
+    "toAccount": "AXIS-771920394",
+    "toEntity": "Raza Khan (Personal Shell Account)",
+    "amountINR": 3500000,
+    "timestamp": "2024-10-14T12:00:00Z",
+    "mode": "IMPS",
+    "referenceNote": "Consulting Fee / Project Management",
+    "flaggedSuspicious": true
+  },
+  {
+    "txId": "TX-405",
+    "fromAccount": "AXIS-771920394",
+    "fromEntity": "Raza Khan",
+    "toAccount": "TRC20-USDT-9910",
+    "toEntity": "Sameer Merchant (Dubai OTC)",
+    "amountINR": 2800000,
+    "timestamp": "2024-10-14T21:45:00Z",
+    "mode": "Crypto P2P",
+    "referenceNote": "P2P Liquidity Token Wash (33,500 USDT)",
+    "flaggedSuspicious": true
+  },
+  {
+    "txId": "TX-406",
+    "fromAccount": "KOTAK-110928374",
+    "fromEntity": "Altaf Memon",
+    "toAccount": "HDFC-330194821",
+    "toEntity": "Tariq Shaikh (Associate Family)",
+    "amountINR": 250000,
+    "timestamp": "2024-10-13T16:20:00Z",
+    "mode": "IMPS",
+    "referenceNote": "Emergency Family Upkeep",
+    "flaggedSuspicious": false
+  },
+  {
+    "txId": "TX-407",
+    "fromAccount": "SBI-440192837",
+    "fromEntity": "Vikram Solanki",
+    "toAccount": "BARB-220194812",
+    "toEntity": "Pradeep Nair (CHA Agent)",
+    "amountINR": 320000,
+    "timestamp": "2024-10-14T19:10:00Z",
+    "mode": "IMPS",
+    "referenceNote": "Express Port Fast-Track & Seal Inspection Clearance",
+    "flaggedSuspicious": true
+  },
+  {
+    "txId": "TX-408",
+    "fromAccount": "ICICI-881029341",
+    "fromEntity": "Dave Bullion",
+    "toAccount": "KOTAK-110928374",
+    "toEntity": "Altaf Memon",
+    "amountINR": 75000,
+    "timestamp": "2024-10-13T09:40:00Z",
+    "mode": "IMPS",
+    "referenceNote": "Courier Commission & Travel Expenses",
+    "flaggedSuspicious": false
+  }
+]

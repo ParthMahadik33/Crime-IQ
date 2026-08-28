@@ -1,0 +1,111 @@
+[
+  {
+    "id": "LEAD-01",
+    "priority": "HIGH PRIORITY",
+    "title": "Hidden Syndicate Coordinator Identified: Raza Khan (alias 'Raja')",
+    "confidenceScore": 96,
+    "summary": "Graph centrality analytics and multi-source fusion have identified Raza Khan (+91 98201 44892) as the common orchestrator connecting armed robbery operator Tariq Shaikh, hawala fencer Karan Dave, and logistics contractor Vikram Solanki.",
+    "keyEntities": [
+      "entity-intermediary-linchpin",
+      "entity-unknown-contact",
+      "entity-suspect-a",
+      "entity-suspect-b",
+      "entity-suspect-c"
+    ],
+    "evidenceTrail": [
+      {
+        "category": "SIGINT / CDR Analysis",
+        "citation": "CDR-102 & CDR-104 & CDR-108",
+        "detail": "Burner 4892 called Tariq 18 min before Bandra heist, alerted Karan Dave 90 min post-heist, and coordinated container loading with Vikram Solanki."
+      },
+      {
+        "category": "FININT / Shell Company Flow",
+        "citation": "TX-401 & TX-402 & TX-404",
+        "detail": "Apex Marine Exports (controlled by Raza Khan) received ₹1.2 Cr from Dave Bullion and disbursed ₹18.5 L to Vikram Solanki and ₹35 L to Raza Khan."
+      },
+      {
+        "category": "ANPR & Geo-Tracking",
+        "citation": "LOC-203, LOC-208, LOC-211",
+        "detail": "Black Scorpio MH-01-EA-4920 registered to R. Khan was visually and electronically detected at Bandra Sea Link, BKC, and Bhiwandi Shed 4B."
+      },
+      {
+        "category": "Entity Disambiguation",
+        "citation": "ER-CLUSTER-RAZA-KHAN (96.4% Match)",
+        "detail": "Confirmed identity resolution across 5 surface forms: Raza Khan, R. Khan, RK, Raja, and Farhan Bhai."
+      }
+    ],
+    "recommendedActions": [
+      "Issue urgent non-bailable arrest warrant under MCOCA Sec 3 & IPC 120B for Raza Khan",
+      "Intercept Black Mahindra Scorpio MH-01-EA-4920 across Mumbai-Thane highway corridors",
+      "Execute simultaneous search and seizure at residential premises in Bandra West",
+      "Submit electronic CDR and ANPR link charts as evidentiary annexures to Court of Special Judge"
+    ],
+    "actionType": "WARRANT_ISSUANCE"
+  },
+  {
+    "id": "LEAD-02",
+    "priority": "HIGH PRIORITY",
+    "title": "Immediate Maritime Interception: Tampered Container TGHU-940128-4 at Nhava Sheva",
+    "confidenceScore": 94,
+    "summary": "Stolen diamonds from Bandra Heist (75.8 carats) are scheduled for outbound maritime export concealed in machine housings under forged shipping bill #BL-NSICT-8819.",
+    "keyEntities": [
+      "entity-suspect-c",
+      "entity-pradeep-nair",
+      "entity-intermediary-linchpin"
+    ],
+    "evidenceTrail": [
+      {
+        "category": "DRI Intelligence",
+        "citation": "INTEL-DRI-2024-409 & FIR DRI-772",
+        "detail": "Container TGHU-940128-4 booked under Apex Marine Exports loaded at Shed 4B Bhiwandi with forged customs seals."
+      },
+      {
+        "category": "FININT Remittance",
+        "citation": "TX-407 (Baroda Bank Wire)",
+        "detail": "₹3.2 Lakhs bribe payment from Vikram Solanki to Customs Agent Pradeep Nair for gate pass fast-track."
+      },
+      {
+        "category": "CDR Wiretap",
+        "citation": "CDR-109 & CDR-113",
+        "detail": "Solanki and Nair finalizing loading window before scheduled port departure to Jebel Ali."
+      }
+    ],
+    "recommendedActions": [
+      "Deploy DRI and Customs Marine Unit to detain container TGHU-940128-4 at Nhava Sheva Terminal 2",
+      "Perform high-energy X-ray backscatter scan on industrial pump casings to locate diamonds",
+      "Detain Customs House Agent Pradeep Nair for custodial interrogation",
+      "Freeze export registration certificate (IEC) of Apex Marine Exports"
+    ],
+    "actionType": "SURVEILLANCE_DEPLOYMENT"
+  },
+  {
+    "id": "LEAD-03",
+    "priority": "MEDIUM PRIORITY",
+    "title": "Asset Freeze & Crypto Seizure: 33,500 USDT Dubai Token Liquidation",
+    "confidenceScore": 91,
+    "summary": "Raza Khan converted ₹28 Lakhs in layered bank funds into offshore USDT via OTC broker Sameer Merchant (Colaba/Dubai).",
+    "keyEntities": [
+      "entity-sameer-merchant",
+      "entity-intermediary-linchpin",
+      "entity-suspect-b"
+    ],
+    "evidenceTrail": [
+      {
+        "category": "FININT Ledger",
+        "citation": "TX-405 & INTEL-EOW-2024-112",
+        "detail": "Direct transfer from AXIS-771920394 to TRC20 wallet address TRC20-USDT-9910."
+      },
+      {
+        "category": "Encrypted VoIP Intercept",
+        "citation": "CDR-110 (412s call)",
+        "detail": "Coordination call between Raza Khan and Sameer Merchant confirming 450,000 USDT total tranche credit."
+      }
+    ],
+    "recommendedActions": [
+      "Issue urgent Letter Rogatory / Interpol Red Notice assistance request for Dubai OTC broker",
+      "Submit blockchain wallet blacklisting request to TRON Foundation and centralized exchanges",
+      "Freeze Axis Bank account AXIS-771920394 under PMLA Sec 17"
+    ],
+    "actionType": "ASSET_FREEZE"
+  }
+]

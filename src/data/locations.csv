@@ -1,0 +1,13 @@
+eventId,entityId,entityName,locationName,latitude,longitude,timestamp,source,confidence
+LOC-201,entity-suspect-a,Tariq Shaikh,Hill Road Bandra West,19.0544,72.8295,2024-10-12T19:40:00Z,Cell Tower Triangulation,0.98
+LOC-202,entity-imran-qureshi,Imran Qureshi,Mehboob Studio Bandra,19.0512,72.8274,2024-10-12T20:05:00Z,ANPR Camera,0.95
+LOC-203,entity-intermediary-linchpin,Raza Khan,Bandra-Worli Sea Link Toll,19.0345,72.8184,2024-10-12T20:45:00Z,ANPR Camera,0.99
+LOC-204,entity-suspect-b,Karan Dave,Zaveri Bazaar,18.9515,72.8312,2024-10-13T09:00:00Z,Cell Tower Triangulation,0.96
+LOC-205,entity-altaf-memon,Altaf Memon,Kurla Station East,19.0657,72.8794,2024-10-13T11:00:00Z,CCTV Facial Match,0.91
+LOC-206,entity-suspect-a,Tariq Shaikh,Kurla Station East,19.0659,72.8792,2024-10-13T11:05:00Z,Cell Tower Triangulation,0.94
+LOC-207,entity-suspect-b,Karan Dave,BKC Financial Center,19.0674,72.8681,2024-10-13T14:15:00Z,Cell Tower Triangulation,0.97
+LOC-208,entity-intermediary-linchpin,Raza Khan,BKC Financial Center,19.0671,72.8685,2024-10-13T14:25:00Z,ANPR Camera,0.99
+LOC-209,entity-intermediary-linchpin,Raza Khan,Thane-Mulund Toll Plaza,19.1843,72.9567,2024-10-14T15:10:00Z,ANPR Camera,0.99
+LOC-210,entity-suspect-c,Vikram Solanki,Bhiwandi Logistics Hub Shed 4B,19.2968,73.0631,2024-10-14T16:00:00Z,Cell Tower Triangulation,0.98
+LOC-211,entity-intermediary-linchpin,Raza Khan,Bhiwandi Logistics Hub Shed 4B,19.2965,73.0633,2024-10-14T16:25:00Z,Informer Sighting,0.94
+LOC-212,entity-pradeep-nair,Pradeep Nair,Nhava Sheva Port Terminal 2,18.9496,72.9511,2024-10-14T19:00:00Z,CCTV Facial Match,0.89

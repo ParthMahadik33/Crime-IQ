@@ -1,0 +1,104 @@
+[
+  {
+    "clusterId": "ER-CLUSTER-RAZA-KHAN",
+    "resolvedCanonicalName": "Raza Khan",
+    "confidence": 0.964,
+    "surfaceForms": [
+      "Raza Khan (Hawala Ledger & EOW Case 89)",
+      "R. Khan (Vehicle Registration MH-01-EA-4920 & Yard Lease)",
+      "RK (Encrypted Mobile Chat & Hawala Token 'RK-BHI-402')",
+      "Raja / Raja Bhai (FIR 412 Phone Contact & HUMINT Debrief)",
+      "Farhan Bhai (Overseas Crypto OTC Pseudonym)"
+    ],
+    "evidence": [
+      {
+        "criteria": "Hardware IMEI & SIM Co-Location",
+        "score": 0.98,
+        "description": "Burner SIM (+91 98201 44892) and Scorpio MH-01-EA-4920 registered to R. Khan shared identical cell towers across 4 incident phases."
+      },
+      {
+        "criteria": "Phonetic & String Match",
+        "score": 0.92,
+        "description": "Jaro-Winkler distance 0.94 between 'Raza Khan' and 'R. Khan'; Levenshtein alias match on 'Raja'."
+      },
+      {
+        "criteria": "Direct Financial Beneficiary",
+        "score": 0.99,
+        "description": "Account AXIS-771920394 under 'Raza Khan' received ₹35 Lakhs direct disbursement from Apex Marine Exports (where 'R. Khan' is signatory)."
+      },
+      {
+        "criteria": "Intelligence Cross-Citation",
+        "score": 0.95,
+        "description": "HUMINT Memo INTEL-MUM-2024-881 specifically identifies 'Raja' as operating vehicle MH-01-EA-4920 and burner relay 4892."
+      }
+    ],
+    "linkedRecords": [
+      "FIR No. 412/2024 (Bandra Heist)",
+      "EOW Case 89/2024 (Dave Bullion)",
+      "DRI/MZU/INT-772 (Bhiwandi Shed 4B)",
+      "CDR-101, CDR-102, CDR-104, CDR-108, CDR-110",
+      "TX-401, TX-402, TX-404, TX-405",
+      "ANPR AN-203, AN-208, AN-209, AN-211"
+    ],
+    "confirmed": true
+  },
+  {
+    "clusterId": "ER-CLUSTER-KARAN-DAVE",
+    "resolvedCanonicalName": "Karan Dave",
+    "confidence": 0.941,
+    "surfaceForms": [
+      "Karan Dave (EOW Accused #1)",
+      "KD Bullion (Zaveri Commercial Signboard)",
+      "K. Dave (Corporate Registrar ROC Filing)",
+      "Dave Bhai (Hawala Ledger Acronym)"
+    ],
+    "evidence": [
+      {
+        "criteria": "ROC Corporate DIN Linking",
+        "score": 0.99,
+        "description": "Director Identification Number matches Dave Bullion and beneficial ownership of Apex Marine account signatory."
+      },
+      {
+        "criteria": "Shared Telephony & Office Geo-Fence",
+        "score": 0.95,
+        "description": "Primary number +91 98218 77201 consistently operating from Dave Bullion office tower in Zaveri Bazaar."
+      }
+    ],
+    "linkedRecords": [
+      "EOW Case 89/2024",
+      "TX-401, TX-403, TX-408",
+      "CDR-104, CDR-105, CDR-107, CDR-112"
+    ],
+    "confirmed": true
+  },
+  {
+    "clusterId": "ER-CLUSTER-VIKRAM-SOLANKI",
+    "resolvedCanonicalName": "Vikram Solanki",
+    "confidence": 0.932,
+    "surfaceForms": [
+      "Vikram Solanki (DRI Accused #1)",
+      "Vicky Bhiwandi (Police Informer Tag)",
+      "V.K. Solanki (Warehouse Leaseholder Agreement)",
+      "Vicky Godown (Transporter Ledger)"
+    ],
+    "evidence": [
+      {
+        "criteria": "Property Lease Agreement & GPS Tag",
+        "score": 0.96,
+        "description": "Registered leaseholder of Shed 4B, Bhiwandi Multi-Logistics Container Park matching phone +91 98690 33419."
+      },
+      {
+        "criteria": "Bank Account Beneficiary Match",
+        "score": 0.97,
+        "description": "SBI-440192837 in name of Solanki Freight Logistics matches RTGS remittance received from Apex Marine."
+      }
+    ],
+    "linkedRecords": [
+      "DRI/MZU/INT-772/2024",
+      "TX-402, TX-407",
+      "CDR-108, CDR-109, CDR-113",
+      "LOC-210"
+    ],
+    "confirmed": true
+  }
+]
